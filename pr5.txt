@@ -1,0 +1,241 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js"></script>
+  </head>
+
+  <body>
+   <table  border=1 width=50%  CELLSPACING=5>
+<tr colspan=2 >
+<td colspan=2 width=1500> Две ячейки ,обьединенные по горизонтали</td>
+</tr>
+<tr>
+<td rowspan=2 height=200> Две ячейки ,обьединенные по вертикали</td>
+<td align=left><h6> По левому краю</h6></td>
+
+</tr>
+<tr>
+<td align=right  width=500><h6>По правому краю</h6></td>
+</tr>
+</table><br><br><br><br><br>
+
+<table border=1 CELLSPACING=1 width=90% >
+<tr >
+  <td colspan=3  ALIGN=center height=30> <b> Учебная таблица</b> </td>
+ 
+</tr>
+<tr>
+  <td > Это первая ячейка </td>
+  <td> Это вторая ячейка </td>
+  <td rowspan=3 ALIGN=center> А это 3 ячейки<br> соединеной в 1 </td>
+</tr>
+<tr>
+  <td colspan=2 ALIGN=center> Это единственная ячейка второй строки обьединяющие оба столбца </td>
+  
+</tr>
+<tr>
+  <td ALIGN=center>  Это первая ячейка 3 строчки </td>
+  
+  <td ALIGN=center> Это вторая ячейка 3 строчки </td>
+</tr>
+<tr>
+  <td colspan=3 ALIGN=center> Конец </td>
+</tr>
+</table><br><br><br><br><br>
+
+<table border=0>
+  <tr>
+    <caption colspan=3><B> Теги логического форматирования</B>
+    </caption>
+  </tr>
+  <tr>
+    <td> Это теги логического форматирования
+    </td>
+
+     <td>
+       <ul>
+        <li>&laquoCODE&raquo
+        <li>&laquoSTRONG&raquo
+        <li>&laquoVAR&raquo
+       </ul> 
+    </td>
+
+     <td> 
+        <ul>
+        <li>&laquoACRONYM&raquo
+        <li>&laquoCITE&raquo
+       </ul> 
+    </td>
+  </tr>
+</table>
+<br><br><br><br><br>
+
+<table border=1>
+   <tr>
+     <caption colspan=10> <h1>Чемпионат города по хокею </h1></caption>
+  </tr>
+  <tr>
+     <caption colspan=10>Таблица результатов</caption>
+  </tr>
+  <tr>
+     <td>
+     </td>
+     <td> Команда</td>
+     <td>1</td>
+     <td>2
+     </td>
+     <td>3
+     </td>
+     <td>4
+     </td>
+     <td>5
+     </td>
+     <td>6
+     </td>
+     <td>Шайбы
+     </td>
+     <td>Очки
+     </td>
+  </tr>
+  <tr>
+     <td>1
+     </td>
+     <td>&laquoРОТОР&raquo
+     </td>
+     <td bgcolor=black>
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>17&mdash;11
+     </td>
+     <td>7
+     </td>
+  </tr>
+  <tr>
+     <td>2
+     </td>
+     <td>&laquoРОТОТОР&raquo
+     </td>
+     <td >
+     </td>
+     <td bgcolor=black>
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>21 &mdash; 20
+     </td>
+     <td>6
+     </td>
+  </tr>
+  <tr>
+     <td>3
+     </td>
+     <td>&laquoУРОЖАЙ&raquo
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td bgcolor=black>
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>6
+     </td>
+  </tr>
+  <tr>
+     <td>4
+     </td>
+     <td>&laquoМАЧТА&raquo
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>5
+     </td>
+  </tr>
+  <tr>
+     <td>5
+     </td>
+     <td>&laquoМЕЧТА&raquo
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>4
+     </td>
+  </tr>
+  <tr>
+     <td>6
+     </td>
+     <td>&laquoОКАЗИЯ&raquo
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>2
+     </td>
+  </tr>
+</table>
+
+
+
+
+
+  </body>
+</html>
